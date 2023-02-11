@@ -11,4 +11,4 @@
 
    04 - Vídeo de demonstração.
 
- - Link da minha Playlist de exercícios:  https://youtu.be/aXFQUND_6qU   
+ - Link da minha Playlist de exercícios:  https://www.youtube.com/watch?v=aXFQUND_6qU&list=PL5eMZRNfWacH0dSmyr2oQ_Z9G5gNdlwxV  
