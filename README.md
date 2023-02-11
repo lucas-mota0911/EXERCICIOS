@@ -3,5 +3,7 @@
  - As pasta estão nomeadas conforme o modulo ou materia do exercicio.
  - Cada pasta contem 03 arquivos:
    01 - Instruções do exercicio.
+   
    02 - O código que desenvolvi (minha resposta).
+   
    03 - Gabarito/resposta do professor ou link do video com a correção.
