@@ -1,10 +1,14 @@
 # Exercicios
- - Alguns exercicios feitos por mim, os quais foram propostos dentro dos cursos que realizei e/ou estou realizando no momento.
- - As pasta estão nomeadas conforme o modulo ou materia do exercicio.
- - Cada pasta contem 03 arquivos:
+ -- Alguns exercícios feitos por mim, os quais foram propostos dentro dos cursos que realizei e/ou estou realizando no momento.
+ - As pastas estão nomeadas conforme o modulo ou matéria do exercício.
+ - Cada pasta contem no mínimo 03 arquivos, algumas podem ter um 4º:
 
-   01 - Instruções do exercicio.
+   01 - Instruções do exercício.
    
    02 - O código que desenvolvi (minha resposta).
    
-   03 - Gabarito/resposta do professor ou link do video com a correção.
+   03 - Gabarito/resposta do professor ou link do vídeo com a correção.
+
+   04 - Vídeo de demonstração.
+
+ - Link da minha Playlist de exercícios:  https://youtu.be/aXFQUND_6qU   
