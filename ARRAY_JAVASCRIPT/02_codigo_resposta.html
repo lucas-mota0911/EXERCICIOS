@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade para fixação 05</title>       
+        
+</head>
+<body>    
+        <input type="text" id="campoTexto" onfocus="selecionado()" onblur="naoSelecionado()"/>
+        <button id="botaoAdicionar" onclick="adicionarItem()" onmouseover="botaoVerde()" onmouseout="botaoNormal()">Adicionar</button>
+        <button id="botaoOrdenar" onclick="ordenarLista()" onmouseover="botaoAzul()" onmouseout="botaoNormal()">Ordenar</button>
+        
+    <script>
+        var listaObjetos = ['cadeira', 'impressora', 'garfo']
+        
+        /* acoes */
+        function adicionarItem (){
+            let itemAdicionado = document.getElementById('campoTexto').value
+            
+            if(itemAdicionado == ''){
+                let vazio = 'informe um valor válido'
+                alert(vazio.toUpperCase())
+            } else{
+                if(listaObjetos.indexOf(itemAdicionado) != -1){
+                let repetido = 'objeto já adicionado'
+                alert(repetido.toUpperCase())
+                } else {
+                    listaObjetos.push(itemAdicionado)                    
+                    console.log(listaObjetos)
+                    document.getElementById('campoTexto').value = ''
+                }
+            }
+        }
+        function ordenarLista (){
+            listaObjetos.sort()
+            console.log(listaObjetos)
+        }
+
+        /* estilo */
+        function botaoVerde(){
+            botaoAdicionar.style.cssText =
+            'background: #053602;' + 
+            'border-radius: 3px;' +
+            'color: #ffffff'
+        }
+        function botaoAzul(){
+            botaoOrdenar.style.cssText =
+            'background: #021236;' +
+            'border-radius: 3px;' +
+            'color: #ffffff;'
+        }
+        function botaoNormal(){
+            botaoAdicionar.removeAttribute('style')
+            botaoOrdenar.removeAttribute('style')
+        }
+        function selecionado(){
+            document.getElementById('campoTexto').style.cssText='background: #696464; border: 2px solid #ff0000; color: #eef208'
+        }
+        function naoSelecionado (){
+            campoTexto.removeAttribute('style')
+        }
+    </script>    
+</body>
+</html>
